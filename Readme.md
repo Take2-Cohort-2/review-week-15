@@ -10,9 +10,15 @@ Build a simple React application that fetches real-time ferry positions from the
 
 1. **API Integration**
    Access the ferry positions endpoint from the Auckland Transport GTFS Realtime API:
-   `https://dev-portal.at.govt.nz/api-details#api=gtfs-realtime-compat&operation=get_ferry_positions`
+   - Visit: https://dev-portal.at.govt.nz/
+   - Login
+   - Select APIs from the menu
+   - Click on the Realtime Compat APIs
+   - Open the Ferry Positions endpoint
 
-2. **Data Extraction**
+   Endpoint to use on API calls will be: `https://api.at.govt.nz/realtime/legacy/ferrypositions`
+
+3. **Data Extraction**
    For each ferry, extract and display the following details:
 
    * Vessel Name
@@ -21,7 +27,7 @@ Build a simple React application that fetches real-time ferry positions from the
    * Longitude
    * Latitude
 
-3. **User Interface**
+4. **User Interface**
    Present the extracted data in a clean and readable format within your React application.
 
 ---
